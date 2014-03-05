@@ -4,7 +4,7 @@
 if [ -f $1/app.psgi ]; then
   echo "Perl/PSGI"
   exit 0
-else if [ -f $1/index.pl ]; then
+elif [ -f $1/index.pl ]; then
   echo "Perl"
   exit 0
 else
